@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>PDF Merger</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>PDF Merger</h2>
+        <p>Select at least 2 PDF files</p>
+    
+        <form method="POST" enctype="multipart/form-data">
+            <div class="file-box">
+                <input type="file" name="pdf1" accept="application/pdf">
+            </div>
+            <div class="file-box">
+                <input type="file" name="pdf2" accept="application/pdf">
+            </div>
+            <div class="file-box">
+                <input type="file" name="pdf3" accept="application/pdf">
+            </div>
+    
+            <button type="submit">Merge PDFs</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
