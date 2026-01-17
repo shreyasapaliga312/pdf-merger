@@ -19,7 +19,4 @@ https://pdf-merger-8c86.onrender.com
 - Clean and responsive UI
 - Deployed on Render (Free tier)
 
-## ▶ How to Run Locally
-```bash
-pip install -r requirements.txt
-python app.py
+
