@@ -13,14 +13,11 @@ https://pdf-merger-8c86.onrender.com
 - CSS
 - Render (Deployment)
 
-## 📸 Screenshot
-![PDF Merger UI](screenshot/Screenshot.png)
-
-
 ## ✨ Features
 - Upload multiple PDF files
 - Merge PDFs into one
 - Clean and responsive UI
 - Deployed on Render (Free tier)
 
-
+## 📸 Screenshot
+![PDF Merger UI](screenshot/Screenshot.png)
